@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_checkbox"
+        android:title="@string/checkbox"
+        android:visible="false"
+        android:icon="@drawable/ic_checkbox"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_checkbox_complete"
+        android:title="@string/checkbox_complete"
+        android:visible="false"
+        android:icon="@drawable/ic_checkbox_complete"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_share"
+        android:title="@string/share"
+        android:visible="false"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:title="@string/delete"
+        android:visible="false"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+</menu>

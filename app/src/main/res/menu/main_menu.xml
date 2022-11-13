@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_down"
+        android:title="menu"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sub_list_all"
+                android:title="Danh sách tất cả"/>
+            <item
+                android:id="@+id/sub_default"
+                android:title="Mặc định"/>
+            <item
+                android:id="@+id/sub_individual"
+                android:title="Cá nhân"/>
+            <item
+                android:id="@+id/sub_work"
+                android:title="Làm việc"/>
+            <item
+                android:id="@+id/sub_shopping"
+                android:title="mua sắm"/>
+            <item
+                android:id="@+id/sub_complete"
+                android:title="Hoàn thành"/>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+    </item>
+    <item
+        android:id="@+id/un_checkbox"
+        android:title="un_checkbox"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/checkbox"
+        android:title="checkbox"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/share"
+        android:title="share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu3"
+        android:title="Danh sách nhiệm vụ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu4"
+        android:title="Thêm rất nhiều"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu5"
+        android:title="Loại bỏ quảng cáo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu6"
+        android:title="Ứng dụng nhiều hơn"
+        app:showAsAction="never" />
+</menu>
